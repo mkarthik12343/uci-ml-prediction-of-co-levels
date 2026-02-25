@@ -1,8 +1,8 @@
-# Air Quality Analysis Using Machine Learning
+# Prediction of Carbon Monoxide (CO) Levels Using Machine Learning
 
 This project is a part of the AAI-550 course in the Applied Artificial Intelligence Program at the University of San Diego (USD).
 
-## Project Status: Active
+## Project Status: Completed
 
 ## Installation
 
@@ -14,13 +14,13 @@ This project is a part of the AAI-550 course in the Applied Artificial Intellige
 ### Steps
 1. Clone the repository:
    ```
-   git clone https://github.com/karthikmekala12343/uci-ml-air-quality-analysis.git
-   cd uci-ml-air-quality-analysis
+   git clone https://github.com/karthikmekala12343/uci-ml-prediction-of-co-levels.git
+   cd uci-ml-prediction-of-co-levels
    ```
 
 2. Install required Python packages:
    ```
-   pip install pandas numpy scikit-learn matplotlib seaborn ucimlrepo jupyter
+   pip install pandas numpy scikit-learn matplotlib seaborn statsmodels ucimlrepo jupyter
    ```
    Or if a `requirements.txt` file is present:
    ```
@@ -44,12 +44,12 @@ If you prefer a cloud-based environment without local setup:
 1. Go to [Google Colab](https://colab.research.google.com/)
 
 2. Open the notebooks from the GitHub repository:
-   - Navigate to https://github.com/karthikmekala12343/uci-ml-air-quality-analysis
+   - Navigate to https://github.com/karthikmekala12343/uci-ml-prediction-of-co-levels
    - Click on the `.ipynb` files and select "Open in Colab"
 
 3. In the first cell, install dependencies:
    ```
-   !pip install -r https://raw.githubusercontent.com/karthikmekala12343/uci-ml-air-quality-analysis/main/requirements.txt
+   !pip install -r https://raw.githubusercontent.com/karthikmekala12343/uci-ml-prediction-of-co-levels/main/requirements.txt
    ```
 
 4. Run the notebook cells.
